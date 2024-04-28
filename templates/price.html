@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Цены на курсы
+{% endblock %}
+
+{% block body %}
+<div class="container"></div>
+<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal">Курсы</h1>
+      <p class="fs-5 text-muted">Здесь вам предоставлены все варианты курсов которые вы можете приобрести, от выбора курса будет зависеть и ваша будущая специальность.</p>
+    </div>
+<div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Курс 'Frontend-разработчик'</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">3.999₽<small class="text-muted fw-light">/мес.</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li><strong>Сюда входит:</strong></li>
+              <li>•Научитесь создавать сайты и веб-сервисы с помощью HTML, CSS, JavaScript, библиотек React и Redux.</li>
+              <li>•Создадите собственные сайты разной тематики и сложности</li>
+              <li>•На протяжении всего курса вы будете повторять задания —<br> с каждым разом сложность повышается и в работе используются новые инструменты</li>
+                <li>ㅤㅤ</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Купить</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Курс "Python-разработчик"</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">2.599₽<small class="text-muted fw-light">/мес.</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li><strong>Быстрый старт в профессии</strong></li>
+                <li>• Изучите Python с нуля и без навыков программирования<br>
+• На курсе вы узнаете, как создавать телеграм-ботов, сайты, приложения, нейросети и использовать Python для научных исследований — теория и практика на реальных задачах<br>
+• В результате станете Python-разработчиком и гарантированно найдете работуа</li>
+              <li>ㅤㅤ</li>
+                <li>ㅤ</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">Купить</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-bg-primary border-primary">
+            <h4 class="my-0 fw-normal">Курс 'Full-stack разработчик</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">5.399₽<small class="text-muted fw-light">/месяц</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li><strong>Сюда входит:</strong></li>
+                <li>•Станьте Fullstack-разработчиком, который разбирается и во внешней оболочке сайта, и в его внутренней логике работы.</li>
+                <li>•Получите базовые знания и на практике освойте навыки разработки веб-сервисов: от верстки и анимации, до создания баз данных.</li>
+                <li>•Изучите языки JavaScript, Python, PHP и другие технологии и научитесь создавать сайты, мобильные приложения и высоконагруженные сервисы.</li>
+
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">Купить</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+{% endblock %}

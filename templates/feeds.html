@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Добавление отзыва
+{% endblock %}
+
+{% block body %}
+<h1 class="container display-6 fw-bold text-body-emphasis">Добавление отзыва на курсы.</h1>
+<h5 class="container display-7 fw-bold text-body-emphasis">Пожалуйста, указывайте свой курс обучения и опишите процесс обучения детальнее.</h5>
+
+<form method="post" class="container form-control">
+    <input type="text" name="name" placeholder="Введите имя" class="container form-control"><br>
+    <input type="text" name="text" placeholder="Напишите отзыв" class="container form-control"><br>
+    <button class="btn btn-primary" type="submit" >Добавить</button>
+</form>
+{% endblock %}
